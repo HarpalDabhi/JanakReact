@@ -5,6 +5,8 @@ import "./componets/Li.css";
 import DestructProp from "./componets/DestructProp";
 import ArgsPass from "./componets/ArgsPass";
 import ArrComponent from "./componets/ArrComponent";
+import ArrFruits from "./componets/ArrFruits";
+import Names from "./componets/NameList";
 
 function App() {
   const person = {
@@ -37,6 +39,10 @@ function App() {
       <p>
         <ArrComponent person={person}/>
       </p>
+      <ul>
+        <ArrFruits/>
+        <Names/>
+      </ul>
     </>
   )
 }
